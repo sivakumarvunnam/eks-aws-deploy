@@ -1,0 +1,8 @@
+name: 'EKS Deploy Action'
+description: 'Configures AWS credentials and kubec_onfig for doing Deployments'
+branding:
+  icon: 'box'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
